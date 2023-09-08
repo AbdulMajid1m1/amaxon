@@ -116,6 +116,7 @@
 const csvjson = require('csvjson');
 const fs = require('fs');
 const ftp = require('ftp');
+require('dotenv').config();
 
 let date = new Date();
 
@@ -161,6 +162,8 @@ module.exports = function () {
             client.end();
           });
         });
+
+       
 
         client.connect({
           host: process.env.HOST,

@@ -1,4 +1,4 @@
 {
-    "ignore": ["C:/GS1/adsp/*"]
+    "ignore": ["**/*.csv"]
   }
   

@@ -97,7 +97,9 @@ module.exports = async function (data) {
       console.log("Successfully wrote file");
     }
   });
-await csv_conv()
+
+  
+ csv_conv()
   console.log(records.length, "printing records ");
   return records;
 
